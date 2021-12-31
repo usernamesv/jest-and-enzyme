@@ -66,3 +66,85 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+<!-- 
+Unit Testing
+It is an essential and integral part of the software development process that helps us ensure the product’s stability.
+
+It is the level of testing at which every component of the software is tested.
+
+Significance of unit testing
+
+It helps us improve the quality of code.
+In a world of changing requirements, it helps us identify future breaks.
+Since bugs are found early, it helps us reduce the cost of bug fixes.
+
+Jest
+
+Jest is a JavaScript unit testing framework, used by Facebook to test services and React applications.
+Jest acts as a test runner, assertion library, and mocking library.
+Jest also provides Snapshot testing, the ability to create a rendered ‘snapshot’ of a component and compare it to a previously saved ‘snapshot’.
+
+Features of Jest
+Zero Configuration
+Fast and sandboxed
+Extensible Framework
+Mocking
+Snapshot Testing
+
+Jest is a complete testing framework that comes not only with a test runner, but also with its own assertion and mocking library. This means that, different from other testing frameworks, there is no need to install and integrate additional libraries to be able to mock, spy or make assertions.
+
+Setup
+Installing and configuring
+
+Using CRA :
+	npx create-react-app jest-and-enzyme-demo
+
+Install Jest:
+	 npm add --dev jest babel-jest @babel/preset-env @babel/preset-react react-test-renderer
+
+
+Jest Is Fast!
+Runs tests parallelly in processes to minimize test runtime.
+
+Runs previously failed tests first.
+
+Automatically finds tests related to changed files.
+
+Easy to set up JavaScript testing solution.
+
+Provides Test isolation i.e. no two tests will ever conflict with each other.
+
+Jest works well with other testing libraries (example Enzyme, Chai).
+
+Using Matchers
+Jest uses matchers to test values in different ways. 
+
+Common Matchers
+Numbers
+Floating Numbers
+Truthiness
+Strings
+Arrays
+
+Who All Are Using Jest?
+Jest is used by Leading companies to test web applications, node.js services, mobile apps, and APIs.
+
+Enzyme
+Enzyme is a JavaScript Testing utility for React that makes it easier to assert, manipulate, and traverse your react Components’ output.
+
+Enzyme, created by Airbnb, adds some great additional utility methods for rendering a component, finding elements, and interacting with elements.
+
+
+
+Installing and configuring
+
+Using CRA :
+	npx create-react-app jest-and-enzyme-demo
+
+Install Enzyme:
+	npm install --save-dev enzyme enzyme-adapter-react-16 enzyme-to-json -->
+
+
+
